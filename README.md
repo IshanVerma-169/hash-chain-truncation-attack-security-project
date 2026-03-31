@@ -1,5 +1,5 @@
 # 🔐 Hash Chain Security Project  
-### Rebinding Attack & Prevention (HMAC, RSA, Checkpoints)
+### Truncation/Rebinding Attack & Prevention (HMAC, RSA, Checkpoints)
 
 ---
 
@@ -26,7 +26,7 @@ Make sure the following are installed:
 
 Run the following command:
 
-
+```bash
 pip install fastapi uvicorn websockets cryptography
 
 
