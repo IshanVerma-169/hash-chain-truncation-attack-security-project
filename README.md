@@ -41,10 +41,20 @@ cry-project/
 │   ├── attacker.py
 │   ├── client.py
 │
-├── part2_hmac/
-│   ├── server.py
+├── part2_commitment/
+│   ├── server2a.py
 │   ├── attacker.py
-│   ├── client.py
+│   ├── client2a.py
+│
+├── part1_multi_cp/
+│   ├── attacker.py
+│   ├── client2a.py
+│   ├── server3a.py
+│
+├── part2_hmac/
+│   ├── server2c.py
+│   ├── attacker2c.py
+│   ├── client2c.py
 │
 ├── part2_rsa/
 │   ├── server_rsa.py
@@ -52,10 +62,10 @@ cry-project/
 │   ├── client_rsa.py
 │
 ├── graphs/
-│   ├── graph1.py
-│   ├── graph2.py
-│   ├── graph3.py
-│   ├── graph4.py
+│   ├── graph1_undetected.py
+│   ├── graph2_success.py
+│   ├── graph3_detection.py
+│   ├── graph4_timeVsLen.py
 │
 ├── testcases.py
 └── README.md
